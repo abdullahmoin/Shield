@@ -1,0 +1,116 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(freashbackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.reg-form-box{
+    max-width: 400px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+}
+.lebeltext{
+    font-family: 'Sofia';
+    margin-left: 6%;
+    color: aliceblue;
+}
+.lebelqt{
+    margin-left: 7%;
+    margin-top: -2%;
+    font-family: 'Nunito';
+    color: aliceblue;
+}
+.reg-form{
+    padding: 0 20px 20px;
+}
+.reg-form label{
+margin-bottom: 5px;
+margin-top: 10px;
+font-size: 12px;
+color: #fff;
+}
+input::placeholder{
+    color: rgb(214, 195, 195) !important;
+}
+.input-grp{
+    width: 150px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    display: inline-block;
+    color: #fff;
+}
+.form-name{
+    font-size: 12px !important;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.form-control{
+    font-size: 12px !important;
+    margin-bottom: 5px;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.select-date::-webkit-calender-picker-indicator{
+    background: transparent !important;
+    
+}
+.select-date{
+    
+}
+.submit{
+    
+    font-family: fantasy;
+    
+    margin-top: 40%;
+    width: 233%;
+    padding: 9px 0 !important;
+    font-size: 20px !important;
+    border: 1px solid#ced4da !important;
+    background: transparent !important;
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+.submit:hover{
+    background: #fff !important;
+    color: rgb(66, 3, 3) !important;
+    transition: 0.5s;
+}
+.radio-btn{
+    margin: 0 20px;
+}
+.radio-btn .btn{
+    margin: 14px 10px 20px 5px;
+    box-shadow: none;
+}
+.radio-btn .btn::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color:#fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+
+}
+.radio-btn span{
+    color: #fff;
+    margin-right: 5px;
+    font: size 12px;
+}
