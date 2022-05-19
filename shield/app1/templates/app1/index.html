@@ -1,0 +1,558 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="{% static "app1/style.css" %}">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <!-- animated css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- vendor css -->
+  <link rel="stylesheet" href="{% static 'vendor CSS/icofont.min.css' %}">
+  <title>SHIELD 100</title>
+</head>
+
+<body>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="methadology.html">Methadology <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'about' %}">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'contact' %}">Contact us<span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="">Methadology</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Share your untold story
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        </form>
+      </div>
+    </nav>
+
+    <section id="bimage">
+{#        <img src="{% static 'app1/fashiontalk.jpg' %}" alt="">#}
+      <div class="hero-container">
+        <h1 class="bbbb">Welcome To Shield</h1>
+        <h2 class="bbb">A Complete Women Safety Vest</h2>
+        <a href="" id="bbbbb" class="btnbody">Watch Demo</a>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="bout">
+      <h1>ABOUT SHIELD</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <!-- <div class="section-title">
+      <h2>About Us</h2>
+    </div> -->
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="https://cf.shopee.sg/file/1133dd1ac2757d06856d990e8277f1e4" class="img-fluid" alt="">
+
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
+            <h3>A COMPLETE SAFETY VEST FOR WOMEN. SO, WOMEN WOULD NEVER FEEL INSECURE. </h3>
+            <p class="boutpara">
+              This is a personal safety product designed to keep you and your friends safe 24/7. It is packed with
+              features for both everyday safety and real emergencies, making it an ultimate tool for all. This
+              user-friendly Our intention is to provide you with fastest and simplest way to contact your nearest help.
+              The basic approach (single click) is to intimidate the instant location and a distress message to the cops
+              and the pre-set numbers, so that unfortunate incident can be averted and to provide real time evidence for
+              the action against the perpetrators of crime against women.
+              <br>
+              <br>
+              This device can also be miniaturized in future and can be embedded also in jewelleries, mobile phones
+              etc., in order to make this device handy. This can also help police department to reduce the crimes, which
+              are against women and the evidence can be used to trace the crime. This a guide, which aids people to take
+              preventive measures as soon as possible during:
+            <p class="boutpara">
+              • Being stalked while walking.
+            </p>
+            <p class="boutpara">
+              • Attempted physical or sexual assault.
+            </p>
+            <p class="boutpara">
+              • Unsafe neighbours.
+            </p>
+            <p class="boutpara">
+              • Domestic violence.
+            </p>
+            <!-- <p class="boutpara">
+              • Hidden camera detector
+            </p> -->
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+   <!-- ======= Call To Action Section ======= -->
+    <section class="call-to-action">
+
+      <div class="container">
+
+        <div class="text-center">
+          <h3>Our vest is connected to app.</h3>
+          <p> Download the app now</p>
+          <a class="cta-btn" href="#">Download Now</a>
+        </div>
+
+      </div>
+    </section><!-- End Call To Action Section -->
+    <br>
+    <br>
+    <br>
+
+
+
+      <!-- subscription -->
+      <!-- <div class="subshedeader">
+        <h2>OUR SUBSCRIPTION POLICY</h2>
+      </div>
+      <br>
+      <br> -->
+       <div class="containerbtnsubs">
+        <br>
+
+
+        <button type="button" class="btnsubs btn-info" data-toggle="collapse" data-target="#demo">Know Our Subscription Policy</button>
+        <div id="demo" class="collapse">
+          <br>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem facere optio in cumque reprehenderit maiores commodi quia blanditiis omnis earum, laborum eaque. Officiis ex exercitationem, aut saepe eaque architecto expedita?
+      </p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+
+<section id="subsback">
+
+     <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-md-5">
+
+          <div class="card">
+            <h2 class="card-title text-center">SUBSCRIBE NOW</a></h2>
+            <div class="card-body py-md-4">
+
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+
+
+                <div class="form-group">
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password">
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-between">
+                  <a href="#">Login</a>
+                  <a href= "{% url 'registration' %}"><button class="btn btn-primary">Create Account</button></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <br>
+   <br>
+  <br>
+  <br>
+  <br>
+
+  </section>
+
+  <!-- ======= Frequently Asked Questions Section ======= -->
+
+  <section id="faq" class="faq section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <ul class="faq-list">
+
+        <li>
+          <a data-toggle="collapse" class="" href="#faq1">Whatis shield? <i
+              class="icofont-simple-up"></i></a>
+          <div id="faq1" class="collapse show" data-parent=".faq-list">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto animi corrupti doloribus consequuntur ducimus, vitae sit voluptate magnam ut, quam fuga similique. Modi, perspiciatis!
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq2" class="collapsed">What is the subscription policy? <i class="icofont-simple-up"></i></a>
+          <div id="faq2" class="collapse" data-parent=".faq-list">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nostrum eos! Earum laboriosam quia reiciendis. Repellat ex neque quis quod nostrum odit illo asperiores sed!
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq3" class="collapsed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, ad? <i class="icofont-simple-up"></i></a>
+          <div id="faq3" class="collapse" data-parent=".faq-list">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dicta facere impedit aliquam minima corporis doloremque optio, ullam labore culpa dignissimos repellendus nulla earum alias!
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq4" class="collapsed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis. <i class="icofont-simple-up"></i></a>
+          <div id="faq4" class="collapse" data-parent=".faq-list">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis tempore molestiae deleniti perspiciatis. Nisi suscipit sit excepturi harum repudiandae, neque exercitationem laborum fugiat hic repellat?
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq5" class="collapsed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, commodi!<i class="icofont-simple-up"></i></a>
+          <div id="faq5" class="collapse" data-parent=".faq-list">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique perspiciatis quam illo dolores fugiat iure tempora autem cumque! Dignissimos tenetur quas odio, iusto magnam quidem?
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq6" class="collapsed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, odio? <i class="icofont-simple-up"></i></a>
+          <div id="faq6" class="collapse" data-parent=".faq-list">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum illo distinctio illum, ducimus temporibus, sit amet odit quas id voluptatibus provident veniam nobis unde?
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+  <br>
+
+<!-- End Frequently Asked Questions Section -->
+
+<!-- our team -->
+
+<section id="team" class="team">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Our Team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sit corporis officia id dolores laudantium ullam ipsam, adipisci commodi porro perspiciatis optio dicta libero obcaecati.</p>
+    </div>
+
+    <div class="row">
+      <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch"> -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+
+
+            <img src="{% static 'app1/image/team/moin.jpg' %}" alt="">
+          <h4>Abdullah Al Moin</h4>
+
+          <!-- <span>Backend Developer</span> -->
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni error ipsam consectetur at. Incidunt voluptates perferendis perspiciatis repudiandae cum autem quam modi, omnis laborum atque.
+          </p>
+          <div class="social">
+
+            <a href=""><i class="icofont-facebook"></i></a>
+            <a href=""><i class="icofont-instagram"></i></a>
+            <a href=""><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+
+            <img src="{% static 'app1/image/team/onu.jpg' %}" alt="">
+          <h4>Tanzilla Hossain Onu</h4>
+          <span>Lorem ipsum dolor sit.</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni error ipsam consectetur at. Incidunt voluptates perferendis perspiciatis repudiandae cum autem quam modi, omnis laborum atque.
+          </p>
+          <div class="social">
+
+            <a href=""><i class="icofont-facebook"></i></a>
+            <a href=""><i class="icofont-instagram"></i></a>
+            <a href=""><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+          <img src="{% static 'app1/image/team/scover1.jpg' %}" alt="">
+          <h4>Minhazul Moon</h4>
+
+          <!-- <span>Frontend Developer</span> -->
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni error ipsam consectetur at. Incidunt voluptates perferendis perspiciatis repudiandae cum autem quam modi, omnis laborum atque.
+          </p>
+          <div class="social">
+
+            <a href=""><i class="icofont-facebook"></i></a>
+            <a href=""><i class="icofont-instagram"></i></a>
+            <a href=""><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+
+            <img src="{% static 'app1/image/team/nobel.jpg' %}" alt="">
+          <h4>Ahsan Habib</h4>
+          <span>Lorem ipsum dolor sit.</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni error ipsam consectetur at. Incidunt voluptates perferendis perspiciatis repudiandae cum autem quam modi, omnis laborum atque.
+          </p>
+          <div class="social">
+
+            <a href=""><i class="icofont-facebook"></i></a>
+            <a href=""><i class="icofont-instagram"></i></a>
+            <a href=""><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+          <img src="Images/team/ridddoy.jpg" alt="">
+            <img src="{% static 'app1/image/team/ridddoy.jpg' %}" alt="">
+          <h4>Eftekharul Islam</h4>
+          <span>Lorem ipsum dolor sit.</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni error ipsam consectetur at. Incidunt voluptates perferendis perspiciatis repudiandae cum autem quam modi, omnis laborum atque.
+          </p>
+          <div class="social">
+
+            <a href=""><i class="icofont-facebook"></i></a>
+            <a href=""><i class="icofont-instagram"></i></a>
+            <a href=""><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+
+            <img src="{% static 'app1/image/team/tonu.jpg' %}" alt="">
+          <h4>Anisur Rahman</h4>
+          <span>Lorem ipsum dolor sit.</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni error ipsam consectetur at. Incidunt voluptates perferendis perspiciatis repudiandae cum autem quam modi, omnis laborum atque.
+          </p>
+          <div class="social">
+
+            <a href=""><i class="icofont-facebook"></i></a>
+            <a href=""><i class="icofont-instagram"></i></a>
+            <a href=""><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</section><!-- End Our Team Section -->
+<br>
+<br>
+ <!-- ======= Contact Us Section ======= -->
+ <section id="contact" class="contact section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto exercitationem unde voluptas, voluptatibus quam voluptate!</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="contact-about">
+          <h3>SHIELD- THE POWER VEST</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea blanditiis debitis doloribus quaerat dignissimos possimus?</p>
+          <div class="social-links">
+
+            <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+            <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info">
+          <div>
+            <i class="icofont-google-map"></i>
+            <p>Lorem ipsum dolor sit amet.<br>dhaka</p>
+          </div>
+
+          <div>
+            <i class="icofont-envelope"></i>
+            <p>shield@xyz.com</p>
+          </div>
+
+          <div>
+            <i class="icofont-phone"></i>
+            <p>+88 01780 55488 55</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-5 col-md-12">
+        <form action="#" method="post" role="form" class="django-email-form">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"/>
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"/>
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          <!-- <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div> -->
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+</section><!-- End Contact Us Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Shield</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        <p class="footer-heart">
+          Made with <!--  <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> -->
+        <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> for the safety of women.
+        </p>
+      </div>
+    </div>
+  </footer><!-- End #footer -->
+
+
+
+
+    <!-- <h1>Hello, world!</h1> -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+
+</html>

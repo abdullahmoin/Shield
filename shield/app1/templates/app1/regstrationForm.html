@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="{% static "app1/reg.css" %}">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>registration</title>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+
+    <div class="reg-form-box">
+
+        <div class="form-box label">
+            <h3 class="form-box lebeltext">Sign Up</h3>
+            <p class="form-box lebelqt">It's quick and easy.</p>
+
+        </div>
+        <div class="reg-form" >
+
+            <input type="text" class="form-name" placeholder="First Name">
+            <input type="text" class="form-name" placeholder="Sure Name">
+            <br>
+            <input type="phone" class="form-control" placeholder="+088">
+            <input type="emails" class="form-control" placeholder="Email Address" >
+            <input type="password" name="pass" class="form-control" placeholder="New Password" >
+        </div>
+
+        <div class="input-grp">
+            <label for="">Date of Birth</label>
+            <input type="date" class="form-control select-date">
+
+        </div>
+
+        <div class="radio-btn">
+            <input type="radio" class="btn" name="check" checked="checked"><span>Male</span>
+            <input type="radio" class="btn" name="check"><span>Female</span>
+            <input type="radio" class="btn" name="check"><span>Others</span>
+
+        </div>
+
+        <div class="input-grp">
+
+            <input type="submit"class="btn btn-primary submit">
+
+        </div>
+    </div>
+     <p>{{ password }}</p>
+</form>
+</body>
+</html>

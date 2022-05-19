@@ -1,0 +1,58 @@
+#bimage{
+    width: 100%;
+    height: 75vh;
+    background: url("https://www.apa.org/images/title-methodology-image_tcm7-198540.jpg") top center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: -80px;
+  }
+  #bimage::before{
+    content: "";
+    /* background: rgba(112, 185, 176, 0.85); */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #methadologyfull{
+      display: flex;
+      margin: auto;
+  }
+
+
+
+    /* IMAGE */
+    about h3 {
+      font-weight: 400;
+      font-size: 26px;
+    }
+    .boutpara{
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 3rem;
+    }
+    .img-fluid{
+    height: 500px;
+    width: 300px;
+    }
+    .imgg-fluid{
+        height: 300px;
+    width: 300px;}
+    #pp{
+        margin-left: 3rem;
+    }
+  .col-lg-6 h3{
+      text-align: center;
+  }
+
+  .overallview h2 {
+          text-align: center;
+          align-items: center;
+          display: block;
+  }
+  .overallview p{
+    text-align: center;
+    align-items: center;
+    display: block;
+  }

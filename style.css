@@ -13,9 +13,6 @@
 .btn{
   padding: 10px;
 }
-
-
-
 /* BACKGROUND IMAGE */
 
 #bimage{
@@ -103,6 +100,9 @@ text-align: center;
 align-items: center;
 
 }
+.navbar{
+ background-color: #177C8E;
+}
 
 /* IMAGE */
 about h3 {
@@ -118,18 +118,14 @@ about h3 {
 .img-fluid{
 height: 500px;
 width: 100%;
-margin-left: 120px;
+
 }
 
 .nav-link{
    font-size: 22px; 
+   padding: 0px;
 }
  
-.nav-item {
-   padding: 3px;
-}
-
-  
 /* CALL TO ACTION */
 .call-to-action {
   background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("Images/Calltoaction/android-ios-windows-logo.png") fixed center center;
@@ -197,9 +193,7 @@ a:hover{
 }
 .form-control{
   background-color: #f8f9fa;
-  padding: 20px;
-  padding: 25px 15px;
-  margin-bottom: 1.3rem;
+  
 }
 
 .form-control:focus {

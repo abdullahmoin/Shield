@@ -1,0 +1,521 @@
+/* ANIMATE HEADER */
+
+.bbbb{
+  animation: backInLeft;
+  animation-duration: 2s;
+}
+
+.bbb{
+ animation: backInRight ;
+  animation-duration: 2s;
+}
+
+.btn{
+  padding: 10px;
+}
+
+
+
+/* BACKGROUND IMAGE */
+
+#bimage{
+  width: 100%;
+  height: 75vh;
+  background: url("image/fashiontalk.jpg") top center;
+  background: top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: -80px;
+  opacity: 12;
+  opacity: 50;
+}
+#bimage::before{
+  content: "";
+  /* background: rgba(112, 185, 176, 0.85); */
+
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* IMAGE OVER TEXT */
+#bimage .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#bimage h1 {
+  margin: -223px 0 10px 0;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 56px;
+  color: #fff;
+   font-family: 'Baloo Bhai 2', cursive;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+#bimage h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* WATCH DEMO BUTTON */
+#bimage .btnbody {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px 10px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 1px solid #fff;
+  color: #fff;
+  animation: flip ;
+  animation-duration: 2s;
+}
+
+#bimage .btnbody:hover {
+  background: #fff;
+  color: #70b9b0;
+  border: 1px solid #70b9b0;
+}
+
+
+#content img {
+  float: left;
+}
+
+/* ABOUT SHIELD HEADER */
+#bout{
+text-align: center;
+align-items: center;
+
+}
+
+/* IMAGE */
+about h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+.boutpara{
+  font-size: 25px;
+  /* font-weight: bold; */
+  font-family: "Lato", sans-serif;
+
+}
+.img-fluid{
+height: 500px;
+width: 100%;
+margin-left: 120px;
+}
+
+.nav-link{
+   font-size: 22px;
+}
+
+.nav-item {
+   padding: 3px;
+}
+
+
+/* CALL TO ACTION */
+.call-to-action {
+  background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("image/Calltoaction/android-ios-windows-logo.png") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.call-to-action h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.call-to-action p {
+  color: #fff;
+  font-size: 28px;
+}
+
+.call-to-action .cta-btn {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.call-to-action .cta-btn:hover {
+  background: #70b9b0;
+  border: 2px solid #70b9b0;
+}
+
+
+/* subscription */
+.subshedeader{
+  text-align: center;
+  align-items: center;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+  background: #fff;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Baloo Bhai 2', cursive;
+}
+h2{
+  padding-top: 1.5rem;
+}
+a{
+  color: #333;
+}
+a:hover{
+  color: #da5767;
+  text-decoration: none;
+}
+.card{
+  border: 0.40rem solid #f8f9fa;
+  top: 10%;
+}
+.form-control{
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 25px 15px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn{
+  padding: 0.6rem 1.2rem;
+  background: #da5767;
+  border: 2px solid #da5767;
+}
+.btn-primary:hover {
+
+
+    background-color: #df8c96;
+    border-color: #df8c96;
+    transition: .3s;
+
+}
+#subsback{
+ background: url("image/subscription/bg-01.jpg");
+}
+
+/* frequently asked questions */
+.faq {
+  padding: 60px 0;
+
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  padding: 0 0 20px 25px;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: #70b9b0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.faq .faq-list i {
+  font-size: 18px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+
+.faq .faq-list p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.faq .faq-list a.collapse {
+  color: #70b9b0;
+}
+
+.faq .faq-list a.collapsed {
+  /* color: #343a40; */
+  color: #70b9b0 ;
+  font-size: 25px;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #70b9b0;
+}
+
+.faq .faq-list a.collapsed i::before {
+  content: "\eab2" !important;
+}
+
+#faq{
+  background-color: #f2f9f8;
+}
+.section-title h2{
+  padding: 65px;
+  text-align: center;
+  align-items: center;
+}
+
+/* our team */
+.team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.team .member img {
+  max-width: 60%;
+  border-radius: 50%;
+  margin: 0 0 30px 0;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.team .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.team .member .social {
+  margin-top: 15px;
+}
+
+.team .member .social a {
+  color: #92cac3;
+  transition: 0.3s;
+}
+
+.team .member .social a:hover {
+  color: #3c8b81;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+
+/* contact us */
+.contact .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #70b9b0;
+}
+
+.contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  color: #888;
+}
+
+.contact .social-links {
+  padding-bottom: 20px;
+}
+
+.contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #70b9b0;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #70b9b0;
+}
+
+.contact .social-links a:hover {
+  background: #70b9b0;
+  color: #fff;
+}
+
+.contact .info {
+  color: #777;
+}
+
+.contact .info i {
+  font-size: 32px;
+  color: #70b9b0;
+  float: left;
+  line-height: 1;
+}
+
+.contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  /* color: red; */
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  /* background: #ed3c0d; */
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  /* -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite; */
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #70b9b0;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #92cac3;
+}
+.contact{
+  background-color: #f2f9f8;
+}
+
+
+/* footer */
+#footer {
+  background: #073839;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+}
+
+#footer .copyright {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+}
+
+/* subscription button toggle expand */
+ .btnsubs{
+  margin: auto;
+  display: flex;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+.collapse p{
+  text-align: center;
+}
+
+
+
+/* ??????????????????? */
+
+
